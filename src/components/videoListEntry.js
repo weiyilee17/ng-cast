@@ -4,7 +4,7 @@ angular.module('video-player')
     item: '<',
     selectVideo: '<'
   },
-  controller: function (){
+  controller: function () {
 
   },
 

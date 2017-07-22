@@ -9,7 +9,7 @@ angular.module('video-player')
     };
     this.searchResults = () => {
 
-    }
+    };
   },
   templateUrl: 'src/templates/app.html'
 });
