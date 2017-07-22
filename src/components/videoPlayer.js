@@ -4,8 +4,10 @@ angular.module('video-player')
   bindings: {
     currentVideo: '<'
   },
-  controller: function() {
-
+  controller: function($window) {
+    // this.$onInit = function() {
+    //   this.video = $window.exampleVideoData[0];
+    // };
   },
   templateUrl: 'src/templates/videoPlayer.html'
 });

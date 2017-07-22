@@ -7,7 +7,7 @@ angular.module('video-player')
   },
 
   controller: function () {
-
+    this.onClick = function() {}
   },
 
   templateUrl: 'src/templates/videoList.html'
